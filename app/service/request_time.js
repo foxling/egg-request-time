@@ -71,6 +71,7 @@ class RequestTimeService extends Service {
       });
     }
 
+    redis.disconnect();
     return res;
   }
 }
