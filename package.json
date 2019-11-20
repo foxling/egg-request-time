@@ -2,13 +2,16 @@
   "name": "egg-request-time",
   "version": "0.0.1",
   "description": "统计每小时请求总数以及平均耗时",
-  "eggPlugin": {
-    "name": "request-time"
-  },
+  "repository": "https://github.com/foxling/egg-request-time.git",
+  "author": "foxling<i.foxling@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "debug": "^4.1.1",
     "egg": "^2.22.2",
     "ioredis": "^4.11.2",
     "pug": "^2.0.4"
+  },
+  "eggPlugin": {
+    "name": "request-time"
   }
 }
